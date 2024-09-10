@@ -142,8 +142,14 @@ Dataset	ID3 (ACC)	NB (ACC)	ID3 (STD)	NB (STD)
 Iris	0.9800	0.9333	0.0305	0.0667
 
 Dry Bean	0.8365	0.8157	0.0075	0.0095
-...	...	...	...	...
+
+
 ## Conclusion
 The CAIM discretization algorithm, when applied to datasets with fewer classes and clear intervals (e.g., Iris, Seeds, and Rice), significantly improved classification accuracy. Models trained using stratified cross-validation consistently outperformed those trained with simple cross-validation, especially in datasets with unbalanced class distributions.
 
-
+## References
+- Kurgan, L., & Cios, K. (2004). CAIM Discretization Algorithm. IEEE Transactions on Knowledge and Data Engineering, 16, 145–153.
+- Fisher, R. A. (1988). Iris. UCI Machine Learning Repository.
+- Bock, R. (2007). MAGIC Gamma Telescope. UCI Machine Learning Repository.
+... (see full references in the code files)
+...	...	...	...	...
