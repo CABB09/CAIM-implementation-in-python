@@ -131,12 +131,16 @@ The results were generated using 10-fold cross-validation and stratified k-fold 
 
 ### Discretized Datasets (Simple CV)
 Dataset	ID3 (ACC)	NB (ACC)	ID3 (STD)	NB (STD)
+
 Iris	0.9333	0.9400	0.0843	0.0554
+
 Dry Bean	0.5951	0.8156	0.3086	0.0102
 ...	...	...	...	...
 ### Discretized Datasets (Stratified CV)
 Dataset	ID3 (ACC)	NB (ACC)	ID3 (STD)	NB (STD)
+
 Iris	0.9800	0.9333	0.0305	0.0667
+
 Dry Bean	0.8365	0.8157	0.0075	0.0095
 ...	...	...	...	...
 ## Conclusion
